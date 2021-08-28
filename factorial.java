@@ -17,7 +17,7 @@ class fact {
     System.out.println("Enter a number:");
     //int fact = 1;
     Scanner tofac = new Scanner(System.in);
-    factorial obj=new factorial();
+    fact obj=new fact();
     int n=tofac.nextInt();
     
     int result=obj.tofindfac(n);
