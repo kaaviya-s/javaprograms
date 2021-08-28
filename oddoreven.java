@@ -2,8 +2,7 @@ import java.util.Scanner;
 class findings{
   void calc(int num){
   
-    int div=num%2;
-    if(div%2==0){
+    if(num%2==0){
      System.out.println("Given number is an even number");
    }   else{
      System.out.println("Given number is a odd number");   
